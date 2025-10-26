@@ -901,7 +901,7 @@ body {
 
 .gal-item a:after {
     content: "\e003";
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Glyphicons Halflings';
     opacity: 0;
     background-color: rgba(52, 142, 45, 0.5);
     position: absolute;
