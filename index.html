@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+    <title>Hotel Sai Namaskaram</title>
+    <meta name="keywords" content="Hotel, Restaurant, Food, Cafe, Bar, Bootstrap, HTML5, CSS3, JS, jQuery, Github, PHP">
+    <meta name="description"
+        content="Welcome to Hotel Sai Namaskaram, your perfect getaway for relaxation and fine dining. Experience our exquisite cuisine, luxurious accommodations, and exceptional service in the heart of the city.">
+    <meta name="author" content="DetQel, HTML5, CSS3, JS, jQuery, Github, PHP">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link id="changeable-colors" rel="stylesheet" href="css/colors/orange.css" />
+    <script src="js/modernizer.js"></script>
+</head>
+<body>
+    <div id="loader">
+        <div id="status"></div>
+    </div>
+    <div id="site-header">
+        <header id="header" class="header-block-top">
+            <div class="container">
+                <div class="row">
+                    <div class="main-menu">
+                        <nav class="navbar navbar-default" id="mainNav">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                    data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <div class="logo">
+                                    <a class="navbar-brand js-scroll-trigger logo-header" href="#">
+                                        <img src="images/hsn_logo.png" width="70" height="70" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="navbar" class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="active"><a href="#banner">Home</a></li>
+                                    <li><a href="#about">About us</a></li>
+                                    <li><a href="#today-special">Special Menu</a></li>
+                                    <li><a href="document/Hotel Sai Namaskaram Menu card.pdf" target="_blank">Menu</a></li>
+                                    <li><a href="#gallery">Gallery</a></li>
+                                    <li><a href="#footer">Contact us</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div id="banner" class="banner full-screen-mode parallax">
+        <video autoplay muted loop playsinline class="banner-video">
+            <source src="videos/StockVideo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+        </video>
+
+        <div class="banner-overlay"></div>
+        <div class="container pr">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="banner-static">
+                    <div class="banner-text">
+                        <div class="banner-cell">
+                            <h1>A Feast for Every <span class="typer" id="some-id" data-delay="200" data-delim=":"
+                                    data-words="Taste:Occasion:Mood" data-colors="gold"></span><span
+                                    class="cursor" data-cursorDisplay="_" data-owner="some-id"></span></h1>
+                            <h2>Discover the World on Your Plate</h2>
+                            <p>From sizzling Indian spices to global gourmet delicacies — enjoy a multi-cuisine experience crafted to please every plate.</p>
+                            <div class="book-btn">
+                                <a href="#reservation" class="table-btn hvr-underline-from-center">Order Online</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="about-main pad-top-100 pad-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title"> About Us </h2>
+                        <h3>IT STARTED, QUITE SIMPLY, LIKE THIS...</h3>
+                        <p> What began as a small dream to bring people together over great food has grown into one of the city’s 
+                            favorite dining destinations. At Hotel Sai Namaskaram, we believe every meal should be more than just 
+                            food — it should be an experience of flavors, warmth, and togetherness.</p>
+                        <p> Our multi-cuisine menu celebrates the best of Indian, Chinese, Continental, and Tandoor delicacies — each dish 
+                            prepared with authentic ingredients, expert techniques, and a touch of love. Whether you’re here for a family 
+                            dinner, a team lunch, or a cozy meal with friends, we have something special for everyone. </p>
+                        <p> With a perfect blend of traditional hospitality and a modern dining ambiance, 
+                            <strong>Hotel Sai Namaskaram</strong> 
+                            continues to serve happiness on every plate — one delicious memory at a time. </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <div class="about-images">
+                            <img class="about-main" src="images/about-main.jpg" alt="About Main Image">
+                            <img class="about-inset" src="images/about-inset.jpg" alt="About Inset Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="today-special" class="special-menu pad-top-100 parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title color-white text-center"> Today's Special </h2>
+                        <h5 class="title-caption text-center"> Savor today’s culinary highlights — freshly prepared, perfectly 
+                            seasoned, and served with a touch of passion. </h5>
+                    </div>
+                    <div class="special-box">
+                        <div id="owl-demo">
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            CHILLI PANEER
+                                            <div class="line"></div>
+                                            <div class="dit-line">
+                                                Spicy and tangy cottage cheese tossed with bell peppers and our signature Indo-Chinese sauce.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/chilli_paneer.jpg" height="383" alt="Chilli Paneer">
+                                </div>
+                            </div>
+
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            IDIYAPPAM
+                                            <div class="line"></div>
+                                            <div class="dit-line">
+                                                Soft string hoppers served hot with coconut milk and spicy curry — a South Indian favorite.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/idiyappam.jpg" height="383" alt="Idiyappam">
+                                </div>
+                            </div>
+
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            GOBI MANCHURIAN
+                                            <div class="line"></div>
+                                            <div class="dit-line">
+                                                Crispy cauliflower florets tossed in a flavorful garlic-chili sauce with spring onions.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/gobi_manchurian.jpg" height="383" alt="Gobi Manchurian">
+                                </div>
+                            </div>
+
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            PUTTU
+                                            <div class="line"></div>
+                                            <div class="dit-line">
+                                                Traditional Kerala breakfast made with steamed rice flour and coconut, served with kadala curry.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/puttu1.jpg" height="383" alt="Puttu">
+                                </div>
+                            </div>
+
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            NOODLES
+                                            <div class="line"></div>
+                                            <div class="dit-line">
+                                                Stir-fried noodles with fresh vegetables and a blend of savory sauces for a perfect street-style taste.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/noodles.jpg" height="383" alt="Noodles">
+                                </div>
+                            </div>
+
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            FRIED RICE
+                                            <div class="line"></div>
+                                            <div class="dit-line">
+                                                Fragrant rice stir-fried with vegetables, soy sauce, and a touch of spice — a timeless classic.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/fried_Rice.jpg" height="383" alt="Fried Rice">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="gallery" class="gallery-main pad-top-100 pad-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title text-center">
+                            Our Gallery
+                        </h2>
+                        <p class="title-caption text-center">Explore the beauty of our hotel through these images.</p>
+                    </div>
+                    <div class="gal-container clearfix">
+                        <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#1">
+                                    <img src="images/idli.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="1" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/idli.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>From Hotel Sai Namaskaram</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#2">
+                                    <img src="images/dosa.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="2" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/dosa.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>From Hotel Sai Namaskaram</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#3">
+                                    <img src="images/Dosa_idli_combo.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="3" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/Dosa_idli_combo.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>From Hotel Sai Namaskaram</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#4">
+                                    <img src="images/gobi_manchurian.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="4" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gobi_manchurian.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>From Hotel Sai Namaskaram</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#5">
+                                    <img src="images/noodles.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="5" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/noodles.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>From Hotel Sai Namaskaram</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#9">
+                                    <img src="images/poori.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="9" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/poori.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>From Hotel Sai Namaskaram</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#10">
+                                    <img src="images/panniyaram.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="10" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/panniyaram.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>From Hotel Sai Namaskaram</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#11">
+                                    <img src="images/onion_uthapam.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="11" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/onion_uthapam.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>From Hotel Sai Namaskaram</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#12">
+                                    <img src="images/ghee_podi_dosa.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="12" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/ghee_podi_dosa.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>From Hotel Sai Namaskaram</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#13">
+                                    <img src="images/fried_Rice.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="13" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/fried_Rice.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>From Hotel Sai Namaskaram</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer" class="footer-main">
+        <div class="footer-news pad-top-100 pad-bottom-70 parallax">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <h2 class="ft-title color-white text-center"> Newsletter </h2>
+                            <p>Subscribe to our newsletter for the latest updates.</p>
+                        </div>
+                        <form action="https://api.web3forms.com/submit" method="POST" id="form">
+                            <input type="hidden" name="access_key" value="58d520bc-1e34-4424-b1f4-10ecf461d5d5">
+                            <input type="email" name="email" placeholder="Enter your E-mail id">
+                            <button type="submit" class="orange-btn"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-box pad-top-30">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-in-main">
+                        <div class="footer-logo">
+                            <div class="text-center">
+                                <img src="images/hsn_logo.png" width="90" height="90" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-box-a">
+                                <h3>About Us</h3>
+                                <p>Where every dish tells a story of flavor, culture, and tradition combined.</p>
+                                <ul class="socials-box footer-socials pull-left">
+                                    <li>
+                                        <a href="#">
+                                            <div class="social-circle-border"><i class="fa fa-facebook"></i></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="social-circle-border"><i class="fa fa-twitter"></i></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="social-circle-border"><i class="fa fa-google-plus"></i></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="social-circle-border"><i class="fa fa-pinterest"></i></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="social-circle-border"><i class="fa fa-linkedin"></i></div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-box-b">
+                                <h3>Special Menu</h3>
+                                <ul>
+                                    <li><a href="#">Ghee Podi Dosa</a></li>
+                                    <li><a href="#">Ghee Podi Thattu Idli</a></li>
+                                    <li><a href="#">Chilli Paneer</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-box-c">
+                                <h3>Contact Us</h3>
+                                <p>
+                                    <i class="fa fa-map-signs" aria-hidden="true"></i>
+                                    <span>Chennai, Tamil Nadu</span>
+                                </p>
+                                <p>
+                                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                                    <span>
+                                        +91 93825 33111
+                                    </span>
+                                </p>
+                                <p>
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <span><a href="hotelsainamaskaram.com">hotelsainamaskaram.com</a></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-box-d">
+                                <h3>Opening Hours</h3>
+                                <ul>
+                                    <li>
+                                        <p>Monday - Sunday </p>
+                                        <span> 7:00 AM - 10:00 PM</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="copyright" class="copyright-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h6 class="copy-title"> Copyright &copy; 2025 Hotel Sai Namaskaram. All Rights Reserved.</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/all.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
